@@ -7,7 +7,7 @@ function SearchBox(props) {
       className="search"
       type="search"
       placeholder="Search..."
-      onChange={props.handleChange}
+      onKeyDown={props.handleChange}
     />
   );
 }
